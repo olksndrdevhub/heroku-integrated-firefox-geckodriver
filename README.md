@@ -23,11 +23,10 @@ Version compatibility as follows:
 To install and integrate the buildpack with your application running on Heroku's dyno:
 
 ```shell
-$ heroku create --buildpack https://github.com/pyronlaboratory/heroku-integrated-firefox-geckodriver
+$ heroku create --buildpack https://github.com/olksndrdevhub/heroku-integrated-firefox-geckodriver
 
 # or if your app is already created:
-$ heroku buildpacks:add https://github.com/pyronlaboratory/heroku-integrated-firefox-geckodriver
-
+$ heroku buildpacks:add https://github.com/olksndrdevhub/heroku-integrated-firefox-geckodriver
 $ git push heroku master
 ```
 
